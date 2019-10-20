@@ -25,3 +25,7 @@ _testmain.go
 /public
 
 .DS_Store
+.idea
+docs
+node_modules
+

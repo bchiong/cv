@@ -1,13 +1,13 @@
 var fs = require('fs');
 var pdf = require('html-pdf');
-var html = fs.readFileSync('./public/index.html', 'utf8');
+var html = fs.readFileSync('./docs/index.html', 'utf8');
 var options = { 
   "format": 'A4',
   "border": {
     "top": "1cm",            // default is 0, units: mm, cm, in, px
-    "right": "3cm",
+    "right": "2cm",
     "bottom": "2cm",
-    "left": "3cm"
+    "left": "2cm"
   }
  };
 
